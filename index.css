@@ -1,0 +1,85 @@
+p{color:blue; }
+p {
+
+  font-family: Arial;
+  
+  }
+  hr {background-color: rgb(122, 43, 226); 
+  height: 5px;  }
+ 
+h1{color: brown;}
+#cabecera {background-color:rgb(243, 115, 10);}/* insertar y dar formato a capa o div */
+header {
+  background: rgba(0,0,0,0.7); /*definimos el color RGBA del fondo de la barra de menú de navegación HTML. En este caso, hemos seleccionado negro con una opacidad del 70%.*/
+  width: 100%;
+  position: fixed;/* indica que para hacer el menú de navegación en HTML, este debe quedarse quieto*/
+  z-index: 100;/* sirve para especificar el orden en el que se amontonan los elementos*/
+ 
+ 
+}
+nav {
+  float: left; /* especificamos que el barra de navegacion html HTML esté alineado a la izquierda de la página. */
+}
+nav ul {
+  list-style: none; /*  Con list-style especificamos la forma de la viñeta de cada elemento de la lista. */
+  overflow: hidden; /*Con la propiedad overflow eliminamos los errores que se puedan dar por contenido fuera de nuestro bloque de menú de navegación en HTML.
+
+  Con overflow: hidden hacemos que todo contenido fuera del bloque del menú se corte y se invisibilice. */
+}
+nav ul li {
+  float: left;/* establecemos que los submenús o páginas se muestren horizontalmente y no uno debajo del otro. Esto se consigue con la línea float: left para la barra de navegacion html.*/
+  font-family: Arial, Helvetica, sans-serif;;
+  font-size: 20px;
+}
+
+nav ul li a {
+  display: block; /* Primero lo convertiremos en un bloque con display: block. De esta forma, ya podemos agregarle un padding, lo que mejorará visualmente nuestro menú y reduciremos errores de dimensión. */
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+nav ul li:hover {
+  background: #eca023; /* seleccionamos qué color queremos ver al posarnos sobre un elemento perteneciente al proceso de hacer un menú de navegación en HTML. Con la propiedad background le especificamos el color por medio del sistema HEX de colores. */
+}
+div,button,#my-id {color: blueviolet;font-family: avenir;}
+body {
+    background-color: #ffdd90; /* color de fondo */
+    background-image: url("C:\TECNOLOGIA RIA\HTML");
+
+    
+}
+h1 {
+    text-align: center; /* centrar h1*/
+  }
+  div {
+    display: flex;
+    justify-content: center;
+  }
+  video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    z-index: -1;
+  }
+  .cocido{
+    position: absolute;
+    bottom: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+
+  }
+
+  
+ .crucigrama{
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+}
+    
+  
